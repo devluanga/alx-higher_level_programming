@@ -6,10 +6,9 @@
    You are not allowed to import any module
    You are not allowed to use str.upper() and str.isupper()
 """
-def islower(x):
-
-
-    if ord(x) >= 97 and ord(x) <= 122:
+def islower(c):
+   
+    if ord(c) >= 97 and ord(c) <= 122:
         return True
     else:
         return False
