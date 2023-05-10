@@ -1,18 +1,13 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-numval = 0
+numval = abs(number) % 10
 if number < 0:
-    number *= -1
-    numval = 1
-lastd = number % 10
-if numval == 1:
-    number *= -1
-    fval *= -1
-print("Last digit of {:d} is ".format(number), end="")
-if fval > 5:
-    print("{:d} and is greater than 5".format(fval))
-elif fval == 0:
-    print("{:d} and is 0".format(fval))
+    numval = -numval
+print("Last digit of {} is {} and is ".format(number, numval), end="")
+if numval > 5:
+    print("greater than 5")
+elif numval == 0:
+    print("0")
 else:
-    print("{:d} and is less than 6 and not 0".format(fval))
+    print("less than 6 and not 0")
