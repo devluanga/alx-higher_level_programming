@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for val  in range(a, z):
-	print("{}".format(chr(val)), end="")
+for val in range(97, 123):
+  print("{}".format(chr(val)), end="")
