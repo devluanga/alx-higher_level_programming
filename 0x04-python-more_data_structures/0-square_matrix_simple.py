@@ -12,5 +12,4 @@ You are allowed to use regular loops, map, etc.
 """
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    for row in matrix:
-        return list(map(lambda x: x * x, row))
+    return ([list(map(lambda x: x * x, row)) for row in matrix])
