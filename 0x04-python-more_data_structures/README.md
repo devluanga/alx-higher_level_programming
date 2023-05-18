@@ -40,7 +40,8 @@ And you can remove elements using the `remove()` method:
 	print(fruits)  # {'orange', 'apple', 'mango'}
 
 
-		**Dictionary**:
+**Dictionary**:
+
 A dictionary is an unordered collection of key-value pairs. It is represented by curly braces `{}` and consists of keys and their corresponding values. Each key-value pair is separated by a colon `:`. 
 Dictionaries are useful when you want to store data in a structured manner, where each piece of data has a unique identifier (key).
 
