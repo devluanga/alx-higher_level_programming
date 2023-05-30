@@ -1,4 +1,4 @@
-Classes and objects are fundamental concepts in object-oriented programming (OOP) in Python. 
+Classes and objects are concepts in object-oriented programming (OOP) in Python. 
 
 A class is a blueprint or template that defines the structure and behavior of objects. 
 It encapsulates data (attributes) and functions (methods) that operate on that data. 
